@@ -1,4 +1,4 @@
-package CarRental;
+package pl.sda.carrental.CarRental;
 
 import java.util.Scanner;
 

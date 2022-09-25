@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Template 2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="New">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarRental/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarRental/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarRental/CarRentalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRentalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarRental/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,13 +62,18 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.sda.carrental.CarRental" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.CarRentalApplication">
     <configuration name="CarRental" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarRental.CarRental" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.carrental.CarRental.CarRental" />
       <module name="CarRental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CarRental.*" />
+          <option name="PATTERN" value="pl.sda.carrental.CarRental.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="CarRentalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarRental.CarRentalApp" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.carrental.CarRental.CarRentalApp" />
       <module name="CarRental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CarRental.*" />
+          <option name="PATTERN" value="pl.sda.carrental.CarRental.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664025731319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New">
+      <created>1664028208057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664028208057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +200,7 @@
     <MESSAGE value="3" />
     <MESSAGE value="Template" />
     <MESSAGE value="Template 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template 2" />
+    <MESSAGE value="New" />
+    <option name="LAST_COMMIT_MESSAGE" value="New" />
   </component>
 </project>
