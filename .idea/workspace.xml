@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="StartApp">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="fragments 1 menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agent-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agent-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agents-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agents-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/property-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/property-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/property-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/property-single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -192,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664097634243</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fragments 1 menu">
+      <created>1664110873466</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664110873466</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +215,7 @@
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="mainpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainpage" />
+    <MESSAGE value="fragments 1 menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fragments 1 menu" />
   </component>
 </project>
