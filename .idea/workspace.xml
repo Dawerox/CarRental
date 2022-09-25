@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="html">
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="StartApp">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/controllers/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/controllers/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/CarRental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agent-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agent-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agents-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/agents-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/property-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/property-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/property-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/property-single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,18 +58,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kuba/Downloads/shoop (1)/shoop/pom.xml",
+    "last_opened_file_path": "C:/Users/dawer/Desktop/shoop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Application.CarRentalApplication">
@@ -111,6 +127,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarRentalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CarRental" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.sda.carrental.CarRental.CarRentalApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,14 +192,7 @@
       <option name="project" value="LOCAL" />
       <updated>1664097634243</updated>
     </task>
-    <task id="LOCAL-00006" summary="html">
-      <created>1664099977180</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664099977180</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,18 +214,6 @@
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="mainpage" />
-    <MESSAGE value="html" />
-    <option name="LAST_COMMIT_MESSAGE" value="html" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/sda/carrental/CarRental/controllers/MainPageController.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="mainpage" />
   </component>
 </project>
