@@ -12,4 +12,8 @@ public class MainPageController {
         return "index";
     }
 
+    @GetMapping("/about.html")
+    public String getAboutPage(Model model) {
+        return "about";
+    }
 }
