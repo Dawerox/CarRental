@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EstateAgency Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <div th:replace="fragments :: style"/>
+
+  <!-- =======================================================
+  * Template Name: EstateAgency - v4.9.0
+  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Property Search Section ======= -->
+  <th:block th:fragment="search"><!-- End Property Search Section -->>
+
+  <!-- ======= Header/Navbar ======= -->
+  <div th:replace="fragments :: menu"/>
+  <!-- End Header/Navbar -->
+
+  <main id="main">
+
+    <!-- ======= Intro Single ======= -->
+    <section class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">Our Amazing Properties</h1>
+              <span class="color-text-a">Grid Properties</span>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a th:href="@{/index}">Start</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Cars Grid
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Intro Single-->
+
+    <!-- ======= Property Grid ======= -->
+    <section class="hero-wrap hero-wrap-2 js-fullheight" th:style= " 'background-image:url(' + @{/img/BMW-3.jpg} + ');'" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+          <div class="col-md-9 ftco-animate pb-5">
+            <p class="breadcrumbs"><span class="mr-2"><a th:href="@{/index}">Start <i class="ion-ios-arrow-forward"></i></a></span> <span>Cars <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">Choose Your Car</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end">
+
+                <img th:src="@{/img/BMW-1.jpg}" alt="" class="img-a img-fluid">
+
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Range Rover</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Subaru</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style=" 'background-image:url(' + @{/img/BMW-2.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/bmw-3.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/bmw-4.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Range Rover</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Subaru</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/bmw-5.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/audi-1.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/audi-2.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Range Rover</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Subaru</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/audi-2.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/audi-3.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/Skoda-1.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Range Rover</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Subaru</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="car-wrap rounded ftco-animate">
+              <div class="img rounded d-flex align-items-end" th:style="'background-image:url(' + @{/img/Skoda-2.jpg} + ');'">
+              </div>
+              <div class="text">
+                <h2 class="mb-0"><a href="car-single.html">Mercedes Grand Sedan</a></h2>
+                <div class="d-flex mb-3">
+                  <span class="cat">Cheverolet</span>
+                  <p class="price ml-auto">$500 <span>/day</span></p>
+                </div>
+                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+          </div>
+        </div>
+      </div>
+    </section><!-- End Property Grid Single-->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div th:replace="fragments :: footer"/>
+  <!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div th:replace="fragments :: vendor"/>
+
+</body>
+
+</html>

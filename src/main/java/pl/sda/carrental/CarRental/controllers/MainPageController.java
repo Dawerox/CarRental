@@ -37,9 +37,9 @@ public class MainPageController {
         return "contact";
     }
 
-    @GetMapping("/property-grid")
+    @GetMapping("/cars-grid")
     public String getpropertygridPage(Model model) {
-        return "property-grid";
+        return "cars-grid";
     }
 
     @GetMapping("/property-single")
