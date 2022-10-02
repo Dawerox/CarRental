@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class MainPageController {
+public class PagesController {
 
     @GetMapping("/index")
     public String getMainPage(Model model) {
@@ -27,11 +27,6 @@ public class MainPageController {
         return "agents-grid";
     }
 
-    @GetMapping("/blog-grid")
-    public String getbloggrid(Model model) {
-        return "blog-grid";
-    }
-
     @GetMapping("/contact")
     public String getcontactPage(Model model) {
         return "contact";
@@ -42,14 +37,29 @@ public class MainPageController {
         return "cars-grid";
     }
 
-    @GetMapping("/property-single")
-    public String getpropertysinglePage(Model model) {
-        return "property-single";
+    @GetMapping("/audi-a3")
+    public String getAudiA3Page(Model model) {
+        return "audi-a3";
     }
-
-    @GetMapping("/blog-single")
-    public String getblogsinglePage(Model model) {
-        return "blog-single";
+    @GetMapping("/bmw")
+    public String getBmwPage(Model model) {
+        return "bmw";
+    }
+    @GetMapping("/traffic")
+    public String getTrafficPage(Model model) {
+        return "traffic";
+    }
+    @GetMapping("/peugeot")
+    public String getPeugeotPage(Model model) {
+        return "peugeot";
+    }
+    @GetMapping("/mercedes")
+    public String getMercedesPage(Model model) {
+        return "mercedes";
+    }
+    @GetMapping("/skoda")
+    public String getSkodaPage(Model model) {
+        return "skoda";
     }
 
 }
