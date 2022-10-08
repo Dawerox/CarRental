@@ -12,7 +12,7 @@
 	<artifactId>CarRental</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CarRental</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Car Rental Application</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

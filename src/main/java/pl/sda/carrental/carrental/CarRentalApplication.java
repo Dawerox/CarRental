@@ -1,4 +1,4 @@
-package pl.sda.carrental.CarRental;
+package pl.sda.carrental.carrental;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
