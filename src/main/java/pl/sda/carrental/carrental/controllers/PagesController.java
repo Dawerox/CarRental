@@ -3,6 +3,7 @@ package pl.sda.carrental.carrental.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import pl.sda.carrental.carrental.dto.CarDTO;
 
 @Controller
 public class PagesController {
@@ -61,5 +62,29 @@ public class PagesController {
     public String getSkodaPage(Model model) {
         return "skoda";
     }
+
+    @GetMapping("/car/{id}")
+    public String getCarPage(Model model) {
+        CarDTO carDTO = new CarDTO();
+         carDTO.setId(1L);
+         carDTO.setCarName("Audi1231231");
+         carDTO.setCarYear("2016");
+         carDTO.setDescription("Audi A3 8V to idealny pomost do samochodu kompaktowego segmentu premium." +
+                 "Wygląda jak nowy model, szczególnie po liftingu, ma świetne wyposażenie," +
+                 " a do tego zaskakuje jakością wykonania i nienaganną sylwetką.");
+         carDTO.setPrice("$300 za dzień");
+         carDTO.setSummary("xx");
+         carDTO.setImg("audi-1.jpg");
+         carDTO.setImg2("audi-2.jpg");
+         carDTO.setImg3("audi-3.jpg");
+         carDTO.setFacilities("Tempomat Klimatronic, 6-ścio biegowa skrzynia, Nawigacja, Podgrzewane fotele," +
+                 " Ogrzewana szyba przednia, Podgrzewana kierownica, Elektryczne lusterka");
+
+         model.addAttribute("carDTO", carDTO);
+
+        return "car";
+    }
+
+
 
 }

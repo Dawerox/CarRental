@@ -37,8 +37,8 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Audi A3</h1>
-              <span class="color-text-a">2016</span>
+              <h1 class="title-single" th:text="${carDTO.carName}"></h1>
+              <span class="color-text-a"th:text="${carDTO.carYear}"></span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -51,7 +51,7 @@
                   <a th:href="@{/cars-grid}">Samochody</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Audi A3
+<!--                  Audi A3-->
                 </li>
               </ol>
             </nav>
@@ -68,13 +68,13 @@
             <div id="property-single-carousel" class="swiper">
               <div class="swiper-wrapper">
                 <div class="carousel-item-b swiper-slide">
-                  <img th:src="@{/img/audi-1.jpg}" alt="" width="100%" height="460">
+                  <img th:src="@{/img/{image} (image=${carDTO.img})}" alt="" width="100%" height="460">
                 </div>
                 <div class="carousel-item-b swiper-slide">
-                  <img th:src="@{/img/audi-2.jpg}" alt="" width="100%" height="460">
+                  <img th:src="@{/img/{image} (image=${carDTO.img2})}" alt="" width="100%" height="460">
                 </div>
                 <div class="carousel-item-b swiper-slide">
-                  <img th:src="@{/img/audi-3.jpg}" alt="" width="100%" height="460">
+                  <img th:src="@{/img/{image} (image=${carDTO.img3})}" alt="" width="100%" height="460">
                 </div>
               </div>
             </div>
@@ -90,10 +90,10 @@
                 <div class="property-price d-flex justify-content-center foo">
                   <div class="card-header-c d-flex">
                     <div class="card-box-ico">
-                      <span class="bi bi-cash">$</span>
+                      <span class="bi bi-cash"></span>
                     </div>
                     <div class="card-title-c align-self-center">
-                      <h5 class="title-c">300 za dzień</h5>
+                      <h5 class="title-c"th:text="${carDTO.price}"></h5>
                     </div>
                   </div>
                 </div>
@@ -101,7 +101,7 @@
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="title-box-d section-t4">
-                        <h3 class="title-d">Podsumowanie</h3>
+                        <h3 class="title-d"th:text="${carDTO.summary}"></h3>
                       </div>
                     </div>
                   </div>
@@ -153,11 +153,7 @@
                   </div>
                 </div>
                 <div class="property-description">
-                  <p class="description color-text-a">
-                    Audi A3 8V to idealny pomost do samochodu kompaktowego segmentu premium.
-                    Wygląda jak nowy model, szczególnie po liftingu, ma świetne wyposażenie,
-                    mnogość najróżniejszych wersji i odmian, a do tego zaskakuje jakością wykonania
-                    i nienaganną sylwetką.
+                  <p class="description color-text-a"th:text="${carDTO.description}">
                   </p>
                   <p class="description color-text-a no-margin">
                   </p>
@@ -170,15 +166,15 @@
                   </div>
                 </div>
                 <div class="amenities-list color-text-a">
-                  <ul class="list-a no-margin">
-                    <li>Tempomat</li>
-                    <li>Klimatronic</li>
-                    <li>6-ścio biegowa skrzynia</li>
-                    <li>Nawigacja</li>
-                    <li>Podgrzewane fotele</li>
-                    <li>Ogrzewana szyba przednia</li>
-                    <li>Podgrzewana kierownica</li>
-                    <li>Elektryczne lusterka</li>
+                  <ul class="list-a no-margin"th:text="${carDTO.facilities}">
+<!--                    <li>Tempomat</li>-->
+<!--                    <li>Klimatronic</li>-->
+<!--                    <li>6-ścio biegowa skrzynia</li>-->
+<!--                    <li>Nawigacja</li>-->
+<!--                    <li>Podgrzewane fotele</li>-->
+<!--                    <li>Ogrzewana szyba przednia</li>-->
+<!--                    <li>Podgrzewana kierownica</li>-->
+<!--                    <li>Elektryczne lusterka</li>-->
                   </ul>
                 </div>
               </div>

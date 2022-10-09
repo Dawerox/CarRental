@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Update api + entity.&#10;Add Interface" />
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Update api + entity.&#10;Add Interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/PagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/PagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -54,11 +60,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dawer/Desktop/shoop",
+    "last_opened_file_path": "C:/Users/dawer/IdeaProjects/CarRental/src/main/resources/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,11 +85,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.sda.carrental.carrental.manager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dawer\IdeaProjects\CarRental\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarRentalApplication">
+  <component name="RunManager" selected="Spring Boot.CarRentalApplication">
     <configuration name="CarRental" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarRental.CarRental" />
       <module name="CarRental" />
@@ -161,7 +174,8 @@
       <workItem from="1664115332622" duration="549000" />
       <workItem from="1664472729297" duration="1441000" />
       <workItem from="1664609198306" duration="41116000" />
-      <workItem from="1665212985989" duration="17258000" />
+      <workItem from="1665212985989" duration="18252000" />
+      <workItem from="1665299359454" duration="12958000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1664014529432</created>
@@ -268,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665234211610</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update api + entity.&#10;Add Interface">
+      <created>1665236135522</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665236135522</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

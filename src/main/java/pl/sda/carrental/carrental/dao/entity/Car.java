@@ -1,68 +1,71 @@
 package pl.sda.carrental.carrental.dao.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name="CARS")
 public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    private Long CarId;
-    private String CarModel;
-    private int CarProductYear;
-    private String CarBrand;
-    private String CarBodyType;
+    @Column(name="CAR_ID")
+    private Long carId;
+    @Column(name="CAR_MODEL")
+    private Long carModel;
+    @Column(name="CAR_PRODUCT_YEAR")
+    private int carProductYear;
+    @Column(name="CAR_BRAND")
+    private String carBrand;
+    @Column(name="CAR_BODY_TYPE")
+    private String carBodyType;
 
     public Car() {
     }
 
     public Car(Long carId, String carModel, int carProductYear, String carBrand, String carBodyType) {
-        CarId = carId;
-        CarModel = carModel;
-        CarProductYear = carProductYear;
-        CarBrand = carBrand;
-        CarBodyType = carBodyType;
+        this.carId = carId;
+        this.carModel = Long.valueOf(carModel);
+        this.carProductYear = carProductYear;
+        this.carBrand = carBrand;
+        this.carBodyType = carBodyType;
     }
 
     public Long getCarId() {
-        return CarId;
+        return carId;
     }
 
     public void setCarId(Long carId) {
-        CarId = carId;
+        this.carId = carId;
     }
 
-    public String getCarModel() {
-        return CarModel;
+    public long getCarModel() {
+        return carModel;
     }
 
     public void setCarModel(String carModel) {
-        CarModel = carModel;
+        this.carModel = Long.valueOf(carModel);
     }
 
     public int getCarProductYear() {
-        return CarProductYear;
+        return carProductYear;
     }
 
     public void setCarProductYear(int carProductYear) {
-        CarProductYear = carProductYear;
+        this.carProductYear = carProductYear;
     }
 
     public String getCarBrand() {
-        return CarBrand;
+        return carBrand;
     }
 
     public void setCarBrand(String carBrand) {
-        CarBrand = carBrand;
+        this.carBrand = carBrand;
     }
 
     public String getCarBodyType() {
-        return CarBodyType;
+        return carBodyType;
     }
 
     public void setCarBodyType(String carBodyType) {
-        CarBodyType = carBodyType;
+        this.carBodyType = carBodyType;
     }
 }
