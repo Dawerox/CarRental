@@ -3,30 +3,49 @@ package pl.sda.carrental.carrental.dao.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name="CARS")
+@Table(name="cars")
 public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    @Column(name="CAR_ID")
+    @Column(name="car_id")
     private Long carId;
-    @Column(name="CAR_MODEL")
+    @Column(name="car_model")
     private Long carModel;
-    @Column(name="CAR_PRODUCT_YEAR")
+    @Column(name="car_product_year")
     private int carProductYear;
-    @Column(name="CAR_BRAND")
+    @Column(name="car_brand")
     private String carBrand;
-    @Column(name="CAR_BODY_TYPE")
+    @Column(name="car_body_type")
     private String carBodyType;
+    @Column(name="img")
+    private String img;
+    @Column(name="img2")
+    private String img2;
+    @Column(name="img3")
+    private String img3;
+    @Column(name="price")
+    private String price;
+    @Column(name="description")
+    private String description;
+    @Column(name="facilities")
+    private String facilities;
 
     public Car() {
     }
 
-    public Car(Long carId, String carModel, int carProductYear, String carBrand, String carBodyType) {
+    public Car(Long carId, String carModel, int carProductYear, String carBrand, String carBodyType,
+               String img, String img2, String img3, String price, String description, String facilities) {
         this.carId = carId;
         this.carModel = Long.valueOf(carModel);
         this.carProductYear = carProductYear;
         this.carBrand = carBrand;
         this.carBodyType = carBodyType;
+        this.img = img;
+        this.img2 = img2;
+        this.img3 = img3;
+        this.price = price;
+        this.description = description;
+        this.facilities = facilities;
     }
 
     public Long getCarId() {
@@ -37,12 +56,12 @@ public class Car {
         this.carId = carId;
     }
 
-    public long getCarModel() {
+    public Long getCarModel() {
         return carModel;
     }
 
-    public void setCarModel(String carModel) {
-        this.carModel = Long.valueOf(carModel);
+    public void setCarModel(Long carModel) {
+        this.carModel = carModel;
     }
 
     public int getCarProductYear() {
@@ -67,5 +86,53 @@ public class Car {
 
     public void setCarBodyType(String carBodyType) {
         this.carBodyType = carBodyType;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    public String getImg2() {
+        return img2;
+    }
+
+    public void setImg2(String img2) {
+        this.img2 = img2;
+    }
+
+    public String getImg3() {
+        return img3;
+    }
+
+    public void setImg3(String img3) {
+        this.img3 = img3;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getFacilities() {
+        return facilities;
+    }
+
+    public void setFacilities(String facilities) {
+        this.facilities = facilities;
     }
 }

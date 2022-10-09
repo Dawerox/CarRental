@@ -9,11 +9,19 @@ public class CarDTO {
     private String img3;
     private String carName;
     private String price;
-    private String summary;
     private String description;
 
     private String facilities;
 
+    private SummaryDTO summaryDTO;
+
+    public SummaryDTO getSummaryDTO() {
+        return summaryDTO;
+    }
+
+    public void setSummaryDTO(SummaryDTO summaryDTO) {
+        this.summaryDTO = summaryDTO;
+    }
 
     public Long getId() {
         return id;
@@ -69,14 +77,6 @@ public class CarDTO {
 
     public void setPrice(String price) {
         this.price = price;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
     }
 
     public String getDescription() {

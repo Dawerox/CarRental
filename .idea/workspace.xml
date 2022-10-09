@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Update api + entity.&#10;Add Interface">
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Reservation Service&#10;+ Dynamic car grid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/PagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/PagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bmw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cars-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cars-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mercedes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/peugeot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/skoda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/traffic.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +185,7 @@
       <workItem from="1664472729297" duration="1441000" />
       <workItem from="1664609198306" duration="41116000" />
       <workItem from="1665212985989" duration="18252000" />
-      <workItem from="1665299359454" duration="12958000" />
+      <workItem from="1665299359454" duration="21350000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1664014529432</created>
@@ -289,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665236135522</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Reservation Service&#10;+ Dynamic car grid">
+      <created>1665315863312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665315863312</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +334,7 @@
     <MESSAGE value="Poprawienie cars grid &#10;Dodanie podstron pojazdów&#10;Poprawienie index" />
     <MESSAGE value="Kosmetyka w contact.html" />
     <MESSAGE value="Update api + entity.&#10;Add Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update api + entity.&#10;Add Interface" />
+    <MESSAGE value="Reservation Service&#10;+ Dynamic car grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reservation Service&#10;+ Dynamic car grid" />
   </component>
 </project>
