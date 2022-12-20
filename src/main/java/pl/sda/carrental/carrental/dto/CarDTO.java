@@ -35,6 +35,18 @@ public class CarDTO {
         return carYear;
     }
 
+    public void setCarYear(String carYear) {
+        this.carYear = carYear;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
     public String getImg2() {
         return img2;
     }
@@ -49,18 +61,6 @@ public class CarDTO {
 
     public void setImg3(String img3) {
         this.img3 = img3;
-    }
-
-    public void setCarYear(String carYear) {
-        this.carYear = carYear;
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
     }
 
     public String getCarName() {

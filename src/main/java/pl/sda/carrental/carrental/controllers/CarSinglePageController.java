@@ -8,6 +8,8 @@ import pl.sda.carrental.carrental.dto.CarDTO;
 import pl.sda.carrental.carrental.dto.SummaryDTO;
 import pl.sda.carrental.carrental.service.CarService;
 
+import java.util.List;
+
 @Controller
 public class CarSinglePageController {
 
@@ -20,11 +22,12 @@ public class CarSinglePageController {
     @GetMapping("/car-single/{id}")
     public String getCarPage(Model model, @PathVariable Long id) {
 
-        CarDTO carDTO = carService.getCarById(id);
+        List<CarDTO> carDTOS = carService.getCarById(id);
+
 
 //        SummaryDTO summaryDTO = new SummaryDTO();
 //        System.out.println(id);
-//
+////
 //        CarDTO carDTO = new CarDTO();
 //        carDTO.setId(1L);
 //        carDTO.setCarName("Audi A3 8V");
@@ -41,7 +44,7 @@ public class CarSinglePageController {
 //                " Ogrzewana szyba przednia, Podgrzewana kierownica, Elektryczne lusterka");
 
 
-        model.addAttribute("carDTO", carDTO);
+        model.addAttribute("carDTO", carDTOS);
 
         return "car-single";
     }

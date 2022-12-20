@@ -38,7 +38,7 @@
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
               <h1 class="title-single" th:text="${carDTO.carName}"></h1>
-              <span class="color-text-a"th:text="${carDTO.carYear}"></span>
+              <span class="color-text-a" th:text="${carDTO.carYear}"> </span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -51,7 +51,6 @@
                   <a th:href="@{/cars-grid}">Samochody</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-<!--                  Audi A3-->
                 </li>
               </ol>
             </nav>
@@ -167,14 +166,6 @@
                 </div>
                 <div class="amenities-list color-text-a">
                   <ul class="list-a no-margin"th:text="${carDTO.facilities}">
-<!--                    <li>Tempomat</li>-->
-<!--                    <li>Klimatronic</li>-->
-<!--                    <li>6-ścio biegowa skrzynia</li>-->
-<!--                    <li>Nawigacja</li>-->
-<!--                    <li>Podgrzewane fotele</li>-->
-<!--                    <li>Ogrzewana szyba przednia</li>-->
-<!--                    <li>Podgrzewana kierownica</li>-->
-<!--                    <li>Elektryczne lusterka</li>-->
                   </ul>
                 </div>
               </div>
@@ -184,8 +175,37 @@
       </div>
           <div class="container">
             <div class="d-flex justify-content-center">
-        <p class="d-flex mb-0 d-block-center"><a th:href="@{/reservations}" class="btn btn-primary py-2 mr-1">Zarezerwuj</a>
-          <a th:href="@{/contact}" class="btn btn-secondary py-2 ml-1">Kontakt </a></p>
+        <p class="d-flex mb-0 d-block-center">
+              <form action="/some/relative/url" method="post">
+              <label for="welcome">Imię i nazwisko :</label>
+              <input type="text" name="welcome" id="welcome" />
+              <label for="age">Twój wiek :</label>
+              <input type="text" name="age" id="age" />
+                <label for="mail">E-mail :</label>
+                <input type="text" name="mail" id="mail" />
+              <div>
+                <label for="1">Audi A3</label>
+                <input name="opt" id="1" type="radio">
+                <label for="2">Mercecdes</label>
+                <input name="opt" id="2" type="radio">
+                <label for="3">BMW</label>
+                <input name="opt" id="3" type="radio">
+                <label for="4">Renault</label>
+                <input name="opt" id="4" type="radio">
+                <label for="5">Volkswagen</label>
+                <input name="opt" id="5" type="radio">
+                <label for="6">Peugeot e308</label>
+                <input name="opt" id="6" type="radio">
+              </div>
+              <label for="startDate">Dzień wynajęcia :</label>
+              <input type="date" name="startDate" id="startDate">
+
+              <label for="endDate">Dzień oddania :</label>
+              <input type="date" name="endDate" id="endDate">
+
+              <button type="submit">Zarezerwuj</button>
+                <a th:href="@{/contact}" class="btn btn-secondary py-2 ml-1">Kontakt </a></p>
+            </form>
               </div>
           </div>
     </section><!-- End Property Single-->
