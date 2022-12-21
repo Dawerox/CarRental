@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Dynamic car-single">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/about-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/agent-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/post-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agent-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/agents-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Modify all project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +182,7 @@
       <workItem from="1670849170140" duration="2097000" />
       <workItem from="1670851958005" duration="7276000" />
       <workItem from="1671362851369" duration="745000" />
-      <workItem from="1671557189744" duration="7220000" />
+      <workItem from="1671557189744" duration="7431000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1664014529432</created>
@@ -338,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665324344695</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Modify all project">
+      <created>1671564831445</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671564831445</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +347,8 @@
     <MESSAGE value="Update api + entity.&#10;Add Interface" />
     <MESSAGE value="Reservation Service&#10;+ Dynamic car grid" />
     <MESSAGE value="Dynamic car-single" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic car-single" />
+    <MESSAGE value="Modify all project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify all project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
