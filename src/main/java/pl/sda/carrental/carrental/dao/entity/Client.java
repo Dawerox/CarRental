@@ -18,10 +18,6 @@ public class Client {
     private String emailAddress;
     @Column(name="ADDRESS")
     private String address;
-    @Column(name="COUNTRY")
-    private String country;
-    @Column(name="STATE")
-    private String state;
     @Column(name="PHONE_NUMBER")
     private String phoneNumber;
 
@@ -66,22 +62,6 @@ public class Client {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
     }
 
     public String getPhoneNumber() {

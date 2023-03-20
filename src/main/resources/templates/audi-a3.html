@@ -120,10 +120,6 @@
                         <span>Sedan</span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        <strong>Status:</strong>
-                        <span>Dostępny</span>
-                      </li>
-                      <li class="d-flex justify-content-between">
                         <strong>Silnik :</strong>
                         <span>2.0 tfsi</span>
                       </li>
@@ -142,6 +138,72 @@
                       </li>
                     </ul>
                   </div>
+                </div>
+                <div class="property-summary">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="title-box-d section-t6">
+                        <h3 class="title-d">Rezerwacja</h3>
+                      </div>
+                    </div>
+                  </div>
+<!--                  <form action="insert.php" method="post">-->
+<!--                      <div class="form-group">-->
+<!--                        <label>reservation_id</label>-->
+<!--                        <input type="reservation_id" name="reservation_id" class="form-control">-->
+<!--                      </div>-->
+<!--                      <div class="form-group">-->
+<!--                        <label>car_id</label>-->
+<!--                        <input type="car_id" name="car_id" class="form-control">-->
+<!--                      </div>-->
+<!--                      <div class="form-group">-->
+<!--                        <label>client_id</label>-->
+<!--                        <input type="client_id" name="client_id" class="form-control">-->
+<!--                      </div>-->
+<!--                    <div class="form-group">-->
+<!--                      <label>res_date</label>-->
+<!--                      <input type="res_date" name="res_date" class="form-control">-->
+<!--                    </div>-->
+<!--                      <input type="submit" name="submit" value="Zarezerwuj">-->
+                    </form>
+                    <label for="name1">Imię:</label>
+                    <input type="text" name="name" id="name1" />
+                    <br>
+                    <label for="name2">Nazwisko:</label>
+                    <input type="text" name="name" id="name2" />
+                    <br>
+                    <label for="age">Twój wiek:</label>
+                    <input type="text" name="age" id="age" />
+                    <br>
+                    <label for="mail">E-mail:</label>
+                    <input type="text" name="mail" id="mail" />
+                    <div>
+                      <label for="1">Audi A3</label>
+                      <input name="opt" id="1" type="radio">
+                      <br>
+                      <label for="2">Mercecdes</label>
+                      <input name="opt" id="2" type="radio">
+                      <br>
+                      <label for="3">BMW</label>
+                      <input name="opt" id="3" type="radio">
+                      <br>
+                      <label for="4">Renault</label>
+                      <input name="opt" id="4" type="radio">
+                      <br>
+                      <label for="5">Volkswagen</label>
+                      <input name="opt" id="5" type="radio">
+                      <br>
+                      <label for="6">Peugeot e308</label>
+                      <input name="opt" id="6" type="radio">
+                    </div>
+                    <label for="startDate">Dzień wynajęcia :</label>
+                    <input type="date" name="startDate" id="startDate">
+                    <br>
+                    <label for="endDate">Dzień oddania :</label>
+                    <input type="date" name="endDate" id="endDate">
+                    <br>
+                    <button type="submit" onclick="window.alert('Rezerwacja została przyjęta.')">Zarezerwuj</button>
+                  </form>
                 </div>
               </div>
               <div class="col-md-7 col-lg-7 section-md-t3">
@@ -172,26 +234,32 @@
                 <div class="amenities-list color-text-a">
                   <ul class="list-a no-margin">
                     <li>Tempomat</li>
-                    <li>Klimatronic</li>
-                    <li>6-ścio biegowa skrzynia</li>
+                    <li>Klimatronik</li>
+                    <li>6-cio biegowa skrzynia</li>
                     <li>Nawigacja</li>
                     <li>Podgrzewane fotele</li>
                     <li>Ogrzewana szyba przednia</li>
                     <li>Podgrzewana kierownica</li>
                     <li>Elektryczne lusterka</li>
                   </ul>
-                </div>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="col-md-14 section-t8 position-relative">
+                    <div class="row">
+                        <img th:src="@{/img/carsingle-3.jpg}" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-          <div class="container">
-            <div class="d-flex justify-content-center">
-        <p class="d-flex mb-0 d-block-center"><a th:href="@{/reservations}" class="btn btn-primary py-2 mr-1">Zarezerwuj</a>
-          <a th:href="@{/contact}" class="btn btn-secondary py-2 ml-1">Kontakt </a></p>
-              </div>
-          </div>
+      </div>
+      </div>
+
     </section><!-- End Property Single-->
 
   </main><!-- End #main -->

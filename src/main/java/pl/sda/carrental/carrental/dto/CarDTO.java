@@ -23,11 +23,11 @@ public class CarDTO {
         this.summaryDTO = summaryDTO;
     }
 
-    public Long getId() {
+    public Long getCarId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setCarId(Long id) {
         this.id = id;
     }
 

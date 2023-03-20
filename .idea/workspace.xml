@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Modify all project" />
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Modify all project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +60,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2FCqKx1L9cIFozMiu9GloBN34DD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -71,6 +91,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;d7b83ec1efc880a578bfa5c1b92a9e39&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -84,6 +105,9 @@
       <recent name="pl.sda.carrental.carrental.manager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dawer\IdeaProjects\CarRental\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dawer\IdeaProjects\CarRental\src\main\resources\templates" />
     </key>
   </component>
@@ -183,6 +207,25 @@
       <workItem from="1670851958005" duration="7276000" />
       <workItem from="1671362851369" duration="745000" />
       <workItem from="1671557189744" duration="7431000" />
+      <workItem from="1671628694917" duration="9799000" />
+      <workItem from="1671642907910" duration="2685000" />
+      <workItem from="1671716819947" duration="688000" />
+      <workItem from="1671717573051" duration="681000" />
+      <workItem from="1671718456880" duration="22000" />
+      <workItem from="1671719414413" duration="140000" />
+      <workItem from="1671719622093" duration="1007000" />
+      <workItem from="1673543206729" duration="538000" />
+      <workItem from="1675369216433" duration="82000" />
+      <workItem from="1675444586354" duration="1846000" />
+      <workItem from="1675594602816" duration="530000" />
+      <workItem from="1675709047853" duration="60000" />
+      <workItem from="1675875060733" duration="7466000" />
+      <workItem from="1677324113891" duration="18154000" />
+      <workItem from="1678304545702" duration="3027000" />
+      <workItem from="1678725151380" duration="2569000" />
+      <workItem from="1679301085110" duration="576000" />
+      <workItem from="1679320158955" duration="871000" />
+      <workItem from="1679322752993" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1664014529432</created>
@@ -317,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671564831445</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Modify all project">
+      <created>1671628936927</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671628936927</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +406,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateProcessingException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
