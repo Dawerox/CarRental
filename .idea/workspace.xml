@@ -7,18 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Modify all project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/CarSinglePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/controllers/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dao/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/dto/CarDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/carrental/carrental/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/audi-a3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/car-single.html" afterDir="false" />
-    </list>
+    <list default="true" id="9cc96e5c-afb3-4ab1-8a04-bb50e525d68d" name="Changes" comment="Update: &#10;Car single is working.&#10;Clean code.&#10;Small changes in classes." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +214,7 @@
       <workItem from="1678725151380" duration="2569000" />
       <workItem from="1679301085110" duration="576000" />
       <workItem from="1679320158955" duration="871000" />
-      <workItem from="1679322752993" duration="5147000" />
+      <workItem from="1679322752993" duration="5560000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1664014529432</created>
@@ -367,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671628936927</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update: &#10;Car single is working.&#10;Clean code.&#10;Small changes in classes.">
+      <created>1679328940595</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679328940595</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +394,8 @@
     <MESSAGE value="Reservation Service&#10;+ Dynamic car grid" />
     <MESSAGE value="Dynamic car-single" />
     <MESSAGE value="Modify all project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify all project" />
+    <MESSAGE value="Update: &#10;Car single is working.&#10;Clean code.&#10;Small changes in classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: &#10;Car single is working.&#10;Clean code.&#10;Small changes in classes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
